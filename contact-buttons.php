@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: WhatsApp Button
+Plugin Name: WhatsApp Sticky Button
 Description: Adds floating WhatsApp and Call Us buttons to your website.
 Version: 1.2
 Author: Faisal khan
@@ -26,12 +26,12 @@ add_action('wp_footer', 'add_contact_buttons');
 
 function contact_buttons_create_menu() {
     add_menu_page(
-        'Contact Buttons Settings',
-        'Contact Buttons',
+        'WhatsApp Sticky Button',
+        'WhatsApp Sticky Button',
         'manage_options',
-        'contact-buttons-settings',
-        'contact_buttons_settings_page',
-        'dashicons-phone',
+        'whatsApp-sticky-button',
+        'whatsApp-sticky-button',
+        'dashicons-whatsapp',
         90
     );
 }
@@ -40,7 +40,7 @@ add_action('admin_menu', 'contact_buttons_create_menu');
 function contact_buttons_settings_page() {
 ?>
     <div class="wrap">
-        <h1>Contact Buttons Settings</h1>
+        <h1>WhatsApp Sticky Buttons Settings</h1>
         <p>Please add your WhatsApp number and phone number but <b>Add country code with WhatsApp number</b></p>
         <form method="post" action="options.php">
             <?php
