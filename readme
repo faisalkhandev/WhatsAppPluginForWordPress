@@ -1,0 +1,21 @@
+== Description ==
+Contact Buttons plugin adds floating WhatsApp and Call Us buttons to your WordPress site.
+
+== Installation ==
+
+1. Upload the `contact-buttons` folder to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. The buttons will appear on the bottom right of your site.
+
+== Frequently Asked Questions ==
+
+= How can I change the WhatsApp number? =
+Edit the `contact-buttons.php` file and replace `yourwhatsappnumber` with your actual WhatsApp number.
+
+= How can I change the phone number for the Call Us button? =
+Edit the `contact-buttons.php` file and replace `yourphonenumber` with your actual phone number.
+
+== Changelog ==
+= 1.0 =
+
+- Initial release.
