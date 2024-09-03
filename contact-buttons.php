@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: Contact Buttons
-Description: Adds WhatsApp and Call Us buttons to your website.
+Plugin Name: WhatsApp Button
+Description: Adds floating WhatsApp and Call Us buttons to your website.
 Version: 1.2
 Author: Faisal khan
 */
