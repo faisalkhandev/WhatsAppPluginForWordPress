@@ -26,13 +26,13 @@ add_action('wp_footer', 'add_contact_buttons');
 
 function contact_buttons_create_menu() {
     add_menu_page(
-        'WhatsApp Sticky Button',
-        'WhatsApp Sticky Button',
-        'manage_options',
-        'whatsApp-sticky-button',
-        'whatsApp-sticky-button',
-        'dashicons-whatsapp',
-        90
+        'WhatsApp Sticky Button',   
+        'WhatsApp Sticky Button',   
+        'manage_options',     
+        'whatsApp-sticky-button',   
+        'contact_buttons_settings_page',
+        'dashicons-whatsapp',          
+        90                                  
     );
 }
 add_action('admin_menu', 'contact_buttons_create_menu');
