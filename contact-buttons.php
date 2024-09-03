@@ -41,7 +41,7 @@ function contact_buttons_settings_page() {
 ?>
     <div class="wrap">
         <h1>Contact Buttons Settings</h1>
-        <p>Please add your WhatsApp number and phone number but Add country code with WhatsApp number</p>
+        <p>Please add your WhatsApp number and phone number but <b>Add country code with WhatsApp number</b></p>
         <form method="post" action="options.php">
             <?php
                 settings_fields('contact-buttons-settings-group');
