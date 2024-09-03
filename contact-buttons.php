@@ -2,7 +2,7 @@
 /*
 Plugin Name: WhatsApp Sticky Button
 Description: Adds floating WhatsApp and Call Us buttons to your website.
-Version: 1.2
+Version: 2.0
 Author: Faisal khan
 */
 
@@ -38,6 +38,15 @@ function contact_buttons_create_menu() {
 add_action('admin_menu', 'contact_buttons_create_menu');
 
 function contact_buttons_settings_page() {
+    if (isset($_GET['settings-updated']) && $_GET['settings-updated']) {
+        ?>
+        <div id="message" class="updated notice is-dismissible">
+            <p><?php _e('Settings saved successfully!', 'contact-buttons'); ?></p>
+        </div>
+        <?php
+    }
+?>
+
 ?>
     <div class="wrap">
         <h1>WhatsApp Sticky Buttons Settings</h1>
