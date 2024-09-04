@@ -10,12 +10,15 @@ Contact Buttons plugin adds floating WhatsApp and Call Us buttons to your WordPr
 == Frequently Asked Questions ==
 
 = How can I change the WhatsApp number? =
-Edit the `contact-buttons.php` file and replace `yourwhatsappnumber` with your actual WhatsApp number.
+Go to the plugin's settings and enter the WhatsApp number but with the country code.
 
 = How can I change the phone number for the Call Us button? =
-Edit the `contact-buttons.php` file and replace `yourphonenumber` with your actual phone number.
+Go to the plugin's settings and enter the phone number.
 
 == Changelog ==
-= 1.0 =
-
 - Initial release.
+= 1.0 =
+= 1.1 =
+= 1.2 =
+= 1.3 =
+= 2.0 =
